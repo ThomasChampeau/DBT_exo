@@ -1,0 +1,1 @@
+{"_invocation_id": "0b5c2303-c0f7-48a8-8634-da0b93b146b0", "linked": {"0": {"name": "source.DBT_demo.my_dbt_db.raw_customers", "type": "source", "succ": [3]}, "1": {"name": "source.DBT_demo.my_dbt_db.raw_orders", "type": "source", "succ": [2]}, "2": {"name": "model.DBT_demo.stg_orders", "type": "model"}, "3": {"name": "model.DBT_demo.stg_customers", "type": "model"}}}
