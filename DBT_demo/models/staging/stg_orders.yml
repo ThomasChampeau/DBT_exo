@@ -1,0 +1,19 @@
+version: 2
+
+models:
+    - name: stg_orders
+      columns:
+        - name: id
+          tests :
+            - not_null
+            - unique
+        - name: customer
+          tests :
+            - not_null
+        - name: ordered_at
+          tests :
+            - not_null
+        - name: store_id
+          tests :
+            - not_null
+
